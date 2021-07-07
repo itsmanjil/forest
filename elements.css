@@ -1,0 +1,355 @@
+body {
+  margin: 0px;
+}
+.intro {
+  background-image: url(/Forest/pic/forest.jpg);
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  color: white;
+  height: 100vw;
+  padding-bottom: 70px;
+}
+
+.nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
+  font-size: 17px;
+  margin: 10px;
+}
+ul {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  text-align: right;
+  text-decoration: none;
+  list-style-type: none;
+  text-shadow: 2px 2px 8px #000;
+  position: absolute;
+  top: 0px;
+  right: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#for {
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 50px;
+  font-size: 30px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.inf {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 123px;
+  font-size: 15px;
+  text-shadow: 2px 2px 8px #000;
+  line-height: 27px;
+  letter-spacing: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.glob,
+#sta {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+.h1 {
+  font-size: 50px;
+  font-family: "Playfair Display", serif;
+}
+
+button {
+  color: black;
+  padding: 10px 30px;
+  border-radius: 35px;
+  color: #a3c962;
+  font-size: 15px;
+  margin: 15px;
+}
+
+#join {
+  background-color: #a3c962;
+  color: white;
+}
+
+.about {
+  background-color: white;
+  color: #000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  height: 100vh;
+}
+
+.center {
+  text-align: center;
+  color: black;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+#what {
+  font-size: 20px;
+  color: #a3c962;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "Playfair Display", serif;
+}
+
+.center,
+.about > h3 h2 p,
+.work {
+  text-align: center;
+}
+
+.tr {
+  padding-left: 15%;
+  padding-right: 5%;
+  width: 300px;
+  height: 380px;
+}
+
+.lef {
+  padding-right: 180px;
+  display: flex;
+  letter-spacing: 1px;
+}
+
+.services {
+  padding-top: 15px;
+  background-image: url(/Forest/pic/3rd.jpg);
+  height: 105vh;
+  width: 100%;
+}
+
+.ser {
+  display: flex;
+  text-align: center;
+  padding-left: 7%;
+  text-shadow: 2px 2px 8px #000;
+  color: white;
+}
+
+.mar {
+  margin: 35px;
+  font-size: 25px;
+  font-size: 18px;
+}
+
+.plant {
+  display: flex;
+  flex-wrap: wrap;
+  height: 45px;
+
+  padding-left: 50px;
+
+  text-align: center !important;
+}
+
+.plant > div {
+  background-color: white;
+  margin: 10px;
+  padding: 50px;
+  width: 270px;
+  height: 100px;
+  text-align: center;
+}
+
+.png {
+  height: 10px;
+}
+
+.gallery {
+  height: 100%;
+  text-align: center;
+}
+
+.wor {
+  background-color: yellowgreen;
+  display: flex;
+  white-space: pre-line;
+}
+
+.wor > div {
+  background-color: transparent;
+  margin: 10px;
+  padding: 50px;
+  width: 270px;
+  height: 100px;
+}
+
+.fer {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+
+  width: 100vw;
+}
+
+.soil {
+  display: flex;
+  justify-content: center;
+}
+
+#me {
+  width: 35%;
+  height: 50%;
+  padding-left: 5%;
+}
+
+.sol {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  padding-left: 50px;
+}
+
+.sol > div {
+  border-radius: 10px;
+  box-shadow: -3px 7px 39px -5px rgb(0 0 0);
+  margin: 10px;
+  padding: 20px 15px;
+  background: #f7f7f7;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+}
+.price {
+  background-image: url(/Forest/pic/price.jpg);
+  background-repeat: no-repeat;
+  height: 110vh;
+}
+/* ol {
+  list-style-type: none;
+  text-align: left;
+} */
+
+.month {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.month > div {
+  height: 250px;
+  width: 200px;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.no {
+  text-align: center;
+  list-style-type: none;
+}
+
+.clients {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  height: 100vh;
+}
+
+.our {
+  display: flex;
+  justify-content: center;
+}
+
+.our > div {
+  height: 250px;
+  width: 200px;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.nature {
+  background-color: yellowgreen;
+  text-align: center;
+  height: 150px;
+  padding: 50px;
+}
+.volunteer {
+  height: 110vh;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.vol {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+vol > div {
+  text-align: center;
+}
+
+.se {
+  display: flex;
+  text-align: center;
+  padding-left: 15%;
+  color: black;
+}
+
+.ma {
+  margin: 35px;
+  font-size: 25px;
+  font-size: 18px;
+}
+
+.price > .ser {
+  padding-left: 300px;
+  padding-top: 30px;
+}
+
+.blog {
+  background-image: url(/Forest/pic/last.jpg);
+  height: max-content;
+}
+.blog > .ser {
+  padding-left: 300px;
+}
+
+.bl {
+  display: flex;
+  justify-content: center;
+}
+
+.bl > div {
+  height: max-content;
+  width: max-content;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.photo {
+  width: 300px;
+}
+
+.form {
+  padding: 20px;
+  margin: 5px;
+  display: block;
+}
+
+.form > div {
+  margin: 5px;
+  width: 20000px;
+}
+form {
+  width: 100%;
+}
