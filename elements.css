@@ -67,7 +67,7 @@ a {
   font-family: "Playfair Display", serif;
 }
 
-button {
+.but {
   color: black;
   padding: 10px 30px;
   border-radius: 35px;
@@ -340,16 +340,40 @@ vol > div {
   width: 300px;
 }
 
-.form {
-  padding: 20px;
+.form > div {
   margin: 5px;
+}
+
+input[type="text"] {
+  width: 450px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
   display: block;
 }
 
-.form > div {
-  margin: 5px;
-  width: 20000px;
+.send {
+  width: 470px;
+  height: 30px;
+  border-radius: 35px;
+  border-color: white;
+  background-color: #a3c962;
+  font-size: 15px;
 }
-form {
-  width: 100%;
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.add {
+  padding-left: 100px;
+  padding-right: 200px;
+  padding-bottom: 20px;
+}
+
+#last {
+  text-align: center;
 }
